@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "declaration": false,
+    "lib": ["ESNext"],
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "outDir": "./dist",
+    "paths": {
+      "http-cookie-agent/http": ["./http"],
+      "http-cookie-agent/undici": ["./undici"]
+    },
+    "rootDir": "./src",
+    "target": "ESNext",
+    "types": ["@types/node"]
+  },
+  "extends": "@3846masa/configs/tsconfig.json",
+  "include": ["src/**/*"]
+}
